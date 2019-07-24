@@ -33,3 +33,24 @@ nav {
   -moz-box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
   box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
 }
+
+.coolStuff {
+  text-align: center;
+  margin: auto;
+}
+
+.coolContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.coolContainer > h5 {
+  text-align: center
+}
+
+.coolContainer > img {
+  width: 300px;
+  height: 300px;
+  align-self: center
+}
