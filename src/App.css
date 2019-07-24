@@ -33,3 +33,29 @@ nav {
   -moz-box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
   box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
 }
+
+.ball-container {
+  display: flex;
+  padding: 30px;
+  transition: all 500ms linear;
+}
+
+.ball-container.invert {
+  background: black;
+}
+
+.ball {
+  min-width: 100px;
+  min-height: 100px;
+
+  box-shadow: 10px 10px 20px 10px black,
+    -10px -10px 40px 10px black inset;
+  border-radius: 100%;
+  margin: 0 auto;
+  transition: all 500ms linear;
+}
+
+.invert > .ball {
+  box-shadow: -10px -10px 20px 10px white,
+  10px 10px 40px 10px white inset;
+}
