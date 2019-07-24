@@ -26,6 +26,16 @@
   background-color: #ffffff !important;
 }
 
+@keyframes App-logo-spin { 
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
+
 nav {
   border-bottom: 1px solid #ffffff !important;
   margin-bottom: 20px;
@@ -34,6 +44,30 @@ nav {
   box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
 }
 
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .ball-container {
   display: flex;
   padding: 30px;
@@ -58,4 +92,29 @@ nav {
 .invert > .ball {
   box-shadow: -10px -10px 20px 10px white,
   10px 10px 40px 10px white inset;
+}
+
+.miguel-display {
+  /* font-family: cursive; */
+  text-align: center;
+  /* width: 40vw; */
+  display: block;
+  height: 10vh;
+  margin: 10vh auto;
+  border:1px solid black;
+}
+
+.miguel-button {
+  display:block;
+  margin: 4vh auto;
+  background: lightcyan;
+}
+.miguel-button-flush {
+  background: lightcoral;
+  display: block;
+  margin: 4vh auto;
+}
+.miguel-button:hover, .miguel-button-flush:hover {
+  background: lightgrey;
+  cursor: grab;
 }

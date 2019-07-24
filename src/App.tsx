@@ -14,9 +14,13 @@ import { DecrementComponent } from './components/Decrement';
 
 import BallComponent from './components/ball-component';
 
+import { SpinnerComponent } from './components/spinner-component';
+import {SpinningAtom} from './components/spinning-atom';
+import BallComponent from './components/ball-component';
 import { dieRollerComponent } from './components/dice-roller-component';
 import JessicaComponent from './components/jessicas-component';
 import FunComponent from './components/fun-page-component';
+import { MiguelComponent } from './components/miguel-component';
 
 
 /*
@@ -49,10 +53,7 @@ const App: React.FC = () => {
           <Route path="/first" component={FirstComponent} />
           <Route path="/second" component={SecondComponent} />
           <Route path="/clicker" component={ClickerComponent} />
-
           <Route path="/reducer" component={DecrementComponent} />
-
-
 
           <Route path="/ball" component={BallComponent} />
 
@@ -60,6 +61,13 @@ const App: React.FC = () => {
           <Route path="/Jessica" component={JessicaComponent} />
           <Route path="/fungame" component={FunComponent} />
 
+          <Route path="/spinner" component={SpinnerComponent} />
+          <Route path="/spinning-atom" component={SpinningAtom}/>
+          <Route path="/ball" component={BallComponent} />
+          <Route path="/dieRoller" component={dieRollerComponent} />
+          <Route path="/Jessica" component={JessicaComponent} />
+          <Route path="/fungame" component={FunComponent} />
+          <Route path="/miguel" component={MiguelComponent} />
           <Route component={FirstComponent} />
         </Switch>
       </div >
