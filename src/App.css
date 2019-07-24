@@ -34,6 +34,7 @@ nav {
   box-shadow: 1px -12px 28px -1px rgba(0, 0, 0, 0.87);
 }
 
+<<<<<<< HEAD
 .coolStuff {
   text-align: center;
   margin: auto;
@@ -54,3 +55,30 @@ nav {
   height: 300px;
   align-self: center
 }
+=======
+.ball-container {
+  display: flex;
+  padding: 30px;
+  transition: all 500ms linear;
+}
+
+.ball-container.invert {
+  background: black;
+}
+
+.ball {
+  min-width: 100px;
+  min-height: 100px;
+
+  box-shadow: 10px 10px 20px 10px black,
+    -10px -10px 40px 10px black inset;
+  border-radius: 100%;
+  margin: 0 auto;
+  transition: all 500ms linear;
+}
+
+.invert > .ball {
+  box-shadow: -10px -10px 20px 10px white,
+  10px 10px 40px 10px white inset;
+}
+>>>>>>> de72cd73340b72e713c370c067a1461ad8b7eafd
