@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-import RevLogo from '../assets/rev-logo.png';
+import RevLogo from '../assets/rev-logo.png'
 
 
 const NavComponent: React.FC = () => {
@@ -34,6 +34,22 @@ const NavComponent: React.FC = () => {
 
                             <Link to="/clicker"
                                 className="unset-anchor nav-link">Clicker</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link to="/ball"
+                                className="unset-anchor nav-link">Ball</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link to="/dieRoller"
+                                className="unset-anchor nav-link">Roller</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link to="/jessica"
+                                className="unset-anchor nav-link">Jessica</Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link to="/fungame"
+                                className="unset-anchor nav-link">Really Fun Game</Link>
                         </li>
 
                     </ul>
