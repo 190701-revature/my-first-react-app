@@ -7,13 +7,12 @@ import NavComponent from './components/nav-component';
 import { HashRouter, BrowserRouter } from 'react-router-dom';
 import { Switch, Route } from 'react-router';
 import { ClickerComponent } from './components/clicker-component';
-<<<<<<< HEAD
-=======
+import { CoolComponent} from './components/cool-component';
 import BallComponent from './components/ball-component';
->>>>>>> eebbe117fd6632d1dde4ba26772df05f9e8f9a0e
 import { dieRollerComponent } from './components/dice-roller-component';
 import JessicaComponent from './components/jessicas-component';
 import FunComponent from './components/fun-page-component';
+
 
 /*
   Components
@@ -45,10 +44,10 @@ const App: React.FC = () => {
           <Route path="/first" component={FirstComponent} />
           <Route path="/second" component={SecondComponent} />
           <Route path="/clicker" component={ClickerComponent} />
-<<<<<<< HEAD
-=======
+
+          <Route path="/coolStuff" component={CoolComponent} />
+
           <Route path="/ball" component={BallComponent} />
->>>>>>> eebbe117fd6632d1dde4ba26772df05f9e8f9a0e
           <Route path="/dieRoller" component={dieRollerComponent} />
           <Route path="/Jessica" component={JessicaComponent} />
           <Route path="/fungame" component={FunComponent} />
