@@ -4,7 +4,7 @@ import './App.css';
 import { FirstComponent } from './components/my-first-component';
 import SecondComponent from './components/my-second-component';
 import NavComponent from './components/nav-component';
-import { HashRouter, BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Switch, Route } from 'react-router';
 import { ClickerComponent } from './components/clicker-component';
 import BallComponent from './components/ball-component';
@@ -12,6 +12,9 @@ import { dieRollerComponent } from './components/dice-roller-component';
 import JessicaComponent from './components/jessicas-component';
 import FunComponent from './components/fun-page-component';
 import { MiguelComponent } from './components/miguel-component';
+import { ArrayComponent } from './components/array-component';
+import { PokeComponent } from './components/poke-component';
+import { AmiiboComponent } from './components/amiibo-component';
 
 /*
   Components
@@ -48,11 +51,13 @@ const App: React.FC = () => {
           <Route path="/Jessica" component={JessicaComponent} />
           <Route path="/fungame" component={FunComponent} />
           <Route path="/miguel" component={MiguelComponent} />
+          <Route path="/arrays" component={ArrayComponent} />
+          <Route path="/pokemons" component={PokeComponent} />
+          <Route path="/amiibos" component={AmiiboComponent} />
           <Route component={FirstComponent} />
         </Switch>
       </div>
     </HashRouter>
-
   );
 }
 

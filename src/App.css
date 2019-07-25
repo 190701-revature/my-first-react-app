@@ -35,7 +35,6 @@
   }
 }
   
-
 nav {
   border-bottom: 1px solid #ffffff !important;
   margin-bottom: 20px;
@@ -69,7 +68,7 @@ nav {
   box-shadow: -10px -10px 20px 10px white,
   10px 10px 40px 10px white inset;
 }
-
+/* ================ Miguel's styles =============== */
 .miguel-display {
   /* font-family: cursive; */
   text-align: center;
@@ -79,7 +78,6 @@ nav {
   margin: 10vh auto;
   border:1px solid black;
 }
-
 .miguel-button {
   display:block;
   margin: 4vh auto;
@@ -93,4 +91,30 @@ nav {
 .miguel-button:hover, .miguel-button-flush:hover {
   background: lightgrey;
   cursor: grab;
+}
+
+#search-button, #search-label {
+  font-family: cursive;
+}
+
+#search-button:hover {
+  background: lightblue;
+}
+
+#search-button:active {
+  background: lightblue;
+}
+
+#display-container {
+  text-align: center;
+  padding: 3vh;
+}
+
+#display-info {
+  font-family: cursive;
+}
+
+#amiibo-img {
+  height: 30vh;
+  margin: 5vh;
 }
